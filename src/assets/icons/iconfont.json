@@ -1,0 +1,107 @@
+{
+  "id": "4503254",
+  "name": "human",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1447724",
+      "name": "全屏",
+      "font_class": "quanping",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "11841781",
+      "name": "翻译",
+      "font_class": "fanyi",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    },
+    {
+      "icon_id": "15053945",
+      "name": "放大镜",
+      "font_class": "ic_search24px",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5241104",
+      "name": "指南针",
+      "font_class": "zhinanzhen",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6756292",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "12149800",
+      "name": "文档管理",
+      "font_class": "wendangguanli",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3008329",
+      "name": "仪表盘",
+      "font_class": "yibiaopan",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "3461832",
+      "name": "加减乘除",
+      "font_class": "jiajianchengchu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3865273",
+      "name": "架构",
+      "font_class": "jiagou",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3868278",
+      "name": "权限审批",
+      "font_class": "quanxianshenpi",
+      "unicode": "eb65",
+      "unicode_decimal": 60261
+    },
+    {
+      "icon_id": "6896817",
+      "name": "word文档",
+      "font_class": "wordwendang",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "8288873",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "15077423",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "15188145",
+      "name": "员工管理",
+      "font_class": "yuangongguanli",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    }
+  ]
+}

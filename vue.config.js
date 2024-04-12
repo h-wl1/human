@@ -1,6 +1,8 @@
 const { defineConfig } = require("@vue/cli-service")
 const path = require("path")
 const resolve = (dir) => path.join(__dirname, dir)
+process.env.VUE_APP_BASE_API
+process.env.VUE_APP_BASE_URL
 module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave: false,
@@ -14,7 +16,7 @@ module.exports = defineConfig({
   devServer: {
     port: 8080,
     // 运行时是否直接打开浏览器
-    open: true,
+    // open: true,
     // host 配置项
     host: "0.0.0.0",
     // 是否开启https
@@ -24,11 +26,11 @@ module.exports = defineConfig({
       // '/api': {
       // 	changeOrigin: true,
       // 	// secure: false,
-      // 	target:'https://baidu.com',
+      // 	target:'https://ihrm-javass.itheima.net/api',
       // 	pathRewrite: {
       // 		'^/api': ''
       // 	}
-      // }
+      // },
       // 动态代理标识
       [process.env.VUE_APP_BASE_API]: {
         target: process.env.VUE_APP_BASE_URL,

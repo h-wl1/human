@@ -23,7 +23,9 @@
   </div>
 </template>
 <script>
-import { loginApi } from "@/api/api.js"
+// import { loginApi } from "@/api/api.js"
+// import  http  from "../utils/httpRequest";
+import { setToken } from "../utils/auth"
 export default {
   data() {
     return {
@@ -40,15 +42,23 @@ export default {
       }
     }
   },
+  // created() {
+  // 	http.post('/api/sys/login',this.ruleForm).then(res=>{
+  // 		setToken(res.data.token)
+  // 		console.log(res)
+  // 	})
+  // },
   methods: {
     // 登录
     login(formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
           // alert('submit!');
-          console.log(this.ruleForm)
-          loginApi(this.ruleForm).then((res) => {
-            console.log(res)
+          // console.log(this.ruleForm)
+          this.$http.post(this.$http.adUrl("/sys/login"), this.ruleForm).then((res) => {
+            setToken(res.data)
+            this.$router.push("/dashboard")
+            this.$message.success("登录成功")
           })
         } else {
           console.log("error submit!!")
@@ -80,6 +90,7 @@ export default {
     ::v-deep .el-form-item.is-error .el-input__inner {
       color: #fff;
       border-color: #fff;
+      background-color: red !important;
     }
     ::v-deep .el-form-item__error .el-input__validateIcon {
       color: #fff;

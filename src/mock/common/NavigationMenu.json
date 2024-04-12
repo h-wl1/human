@@ -1,0 +1,56 @@
+{
+	"success":"请求成功",
+	"code":"200",
+	"message": "请求成功",
+	"data": {
+		"menu": [
+			{
+				"id": 1,
+				"name": "首页",
+				"icon": "el-icon-yibiaopan",
+				"path": "/dashboard"
+			},
+			{
+				"id": 2,
+				"name": "组织框架",
+				"icon": "el-icon-jiagou",
+				"path": "/departments/index"
+			},	{
+				"id": 3,
+				"name": "员工",
+				"icon": "el-icon-yuangongguanli",
+				"path": "/employees/index"
+			},	{
+				"id": 4,
+				"name": "公司设置",
+				"icon": "el-icon-shezhi",
+				"path": "/settings/index"
+			},	{
+				"id": 5,
+				"name": "权限设置",
+				"icon": "el-icon-shezhi",
+				"path": "/permissions/index"
+			},	{
+				"id": 6,
+				"name": "社保",
+				"icon": "el-icon-fenlei",
+				"path": "/social-securitys/index"
+			},	{
+				"id": 7,
+				"name": "考勤",
+				"icon": "el-icon-wordwendang",
+				"path": "/attendances/index"
+			},	{
+				"id": 8,
+				"name": "工资",
+				"icon": "el-icon-jiajianchengchu",
+				"path": "/salarys/index"
+			},	{
+				"id": 9,
+				"name": "审批",
+				"icon": "el-icon-quanxianshenpi",
+				"path": "/approvals/index"
+			}
+		]
+	}
+}

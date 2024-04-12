@@ -1,6 +1,6 @@
-import axios from "./http"
+import axios from "../utils/httpRequest"
 
 // 登录
 export const loginApi = (params) => {
-  return axios.post("/sys/login", params)
+  return axios.post("api/sys/login", params)
 }

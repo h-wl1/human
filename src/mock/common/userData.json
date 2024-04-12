@@ -1,0 +1,21 @@
+{
+	"success":"请求成功",
+	"code":"200",
+	"message": "请求成功",
+	"data": {
+		 "userId":"12",
+		 "mobile":"15136681766",
+		 "username":"姚新奇",
+		 "standing":"管理员",
+		 "company":"上海云数科技有限公司",
+		 "companyId":"123456789",
+		 "companyType":"1",
+		 "companyTypeName":"企业",
+		 "companyStatus":"1",
+		 "companyStatusName":"正常",
+		 "companyAddress":"上海市浦东新区",
+		 "companyAddressName":"浦东新区",
+		 "companyAddressCode":"310115"
+
+	}
+}
